@@ -19,11 +19,11 @@ print("The function being used is f_a(x) = ax(1-x)")
 print("-------------------------------------------")
 a = float(input("Enter parameter a: ")) # this should be between 0 and 4 unless axes are changed
 x0 = float(input("Enter initial value x0: ")) # this should be between 0 and 1
-imax = int(input("Enter the number of iterations: ")) # Any integer -- number of iterations in the sequence, i.e. we want xn where n = imax
 m = int(input("Enter m for the mth iterate of f_a: ")) # Any integer, the number of times to iterate f_a (i.e., f_a^(m))
+imax = int(input("Enter the number of iterations: ")) # Any integer -- number of iterations in the sequence, i.e. we want xn where n = imax
 
-# left = 30 # may not be needed
-# w = 300   # number of plotting intervals
+# left = 30 --- may not be needed
+# w = 300   --- number of plotting intervals
 
 ### Draw Bisector and Function
 plt.axis([0, 1, 0, 1])
